@@ -52,11 +52,11 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * `---------------------------------------------------------' `---------------'
      */
     [0] = KEYMAP(
-    GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,    NLCK,EQL, PSLS,PAST,
+    ESC, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,    NLCK,EQL, PSLS,PAST,
     TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,         P7,  P8,  P9,  PMNS,
-    LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,     P4,  P5,  P6,  PPLS,
+    LGUI,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,     ENT,     P4,  P5,  P6,  PPLS,
     LSFT,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          UP,      P1,  P2,  P3,  PENT,
-    LALT,LGUI,               SPC,                FN0, FN13,LEFT,RGHT,DOWN,    P0,       PDOT
+    LCTL,LALT,               SPC,                FN0, FN13,LEFT,RGHT,DOWN,    P0,       PDOT
     ),
     /* Cursor Layer:
      * M0110                                                       M0120
@@ -85,7 +85,7 @@ const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS] PROGMEM = {
      * `---------------------------------------------------------' `---------------'
      */
     [1] = KEYMAP(
-    ESC, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,     NLCK,EQL, PSLS,PAST,
+    GRV, F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, DEL,     NLCK,EQL, PSLS,PAST,
     CAPS,HOME,UP,  PGUP,NO,  NO,  NO,  NO,  PSCR,SLCK,PAUS,UP,  INS,          P7,  P8,  P9,  PMNS,
     LCTL,LEFT,DOWN,RGHT,NO,  NO,  NO,  NO,  HOME,PGUP,LEFT,RGHT,     ENT,     P4,  P5,  P6,  PPLS,
     LSFT,END, NO,  PGDN,NO,  NO,  NO,  NO,  END, PGDN,DOWN,          PGUP,    P1,  P2,  P3,  PENT,
